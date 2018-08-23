@@ -432,6 +432,7 @@ div.person div.info p {
 	width: 520px;
 	float: right;
 	padding: 15px 30px 0px 0px ;
+	font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 div.person div.image img {
 	position: absolute;
@@ -458,7 +459,7 @@ div.qualifications div.gcse {
 	padding-left: 50px;
 	padding-top: 10px;
 	padding-right: 50px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	border: 3px solid red;
 	border-radius: 25%;
 }
@@ -468,6 +469,7 @@ div.qualifications div.gcse h2{
 }
 div.qualifications div.gcse p{
 	font-size: 10pt;
+	font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 
 div.qualifications div.alevel {
@@ -476,7 +478,7 @@ div.qualifications div.alevel {
 	padding-left: 50px;
 	padding-top: 10px;
 	padding-right: 50px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	border: 3px solid green;
 	border-radius: 25%;
 }
@@ -487,6 +489,7 @@ div.qualifications div.alevel h2{
 
 div.qualifications div.alevel p{
 	font-size: 10pt;
+	font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 
 div.qualifications2 div.university {
@@ -504,7 +507,8 @@ div.qualifications2 div.university h2{
 }
 
 div.qualifications2 div.university p{
-	font-size: 12pt;
+	font-size: 11pt;
+	font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 
 
