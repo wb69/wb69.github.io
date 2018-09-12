@@ -37,6 +37,7 @@ html, body {
 	height: 100%;
 	letter-spacing: 0.025em;
 	-webkit-font-smoothing: subpixel-antialiased;
+	background-color: black;
 }
 
 /******************************************************************
@@ -70,50 +71,58 @@ b {
 	font-weight: bold;
 }
 p {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
-	color: #848484;
+	color: #ffffff;
 	font-size: 12px;
 }
 h1 {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
-	color: #454544;
+	color: #ffffff;
 	text-decoration: none;
+	font-weight: bold;
 	font-size: 40px;
 }
 h2 {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
-	color: #454544;
+	color: #ffffff;
 	text-decoration: none;
+	font-weight: bold;
 	font-size: 20px;
+	text-shadow: green 1px 0 5px;
 }
 h3 {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
-	color: #454544;
+	color: #ffffff;
 	text-decoration: none;
+	font-weight: bold;
 	font-size: 18px;
+	text-shadow: green 1px 0 5px;
 }
 h4 {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
-	color: #454544;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 16px;
+	text-shadow: green 1px 0 5px;
 }
 h5 {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
-	color: #454544;
+	color: #ffffff;
 	text-decoration: none;
+	font-weight: bold;
 	font-size: 14px;
+	text-shadow: green 1px 0 5px;
 }
 h6 {
 	font-family: "Open Sans", Verdana, Arial, sans-serif;
 	line-height: 1.6em;
-	color: #454544;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 12px;
 }
@@ -167,11 +176,11 @@ blockquote {
 	font-size: 28px;
 	line-height: 60px;
 	width: 100%;
-	background-color: #f6f6f6;
+	background-color: #060606;
 	height: 140px;
 	text-align: center;
 	padding-top: 40px;
-	color: #616161;
+	color: #ffffff;
 	font-weight: 300;
 	font-style: italic;
 }
@@ -204,19 +213,19 @@ p.main {
 div.section.divider {
 	width: 100%;
 	height: 40px;
-	border-top: 1px solid #6093e7;
+	border-top: 1px solid green;
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 40px;
 }
 div.section.divider.single {
-	border-top: 1px solid #6093e7;
+	border-top: 1px solid #ffffff;
 	margin-top: 150px;
 }
 div.section.divider h2 {
 	font-weight: 400;
-	color: #6093e7;
-	background-color: #FFF;
+	color: #ffffff;
+	background-color: #000;
 	margin-top: -20px;
 	width: 300px;
 	margin-left: auto;
@@ -245,11 +254,11 @@ div.icon {
 	height: 100%;
 }
 .home.hero {
-	background-image: url(../img/home_bg.jpg);
+	background-image: url(../../../wb69.github.io/HTML/img/home_bg.jpg);
 	background-size: cover;
 }
 .overlay {
-	background-image: url(../img/overlay_light_diagonal.png);
+	background-image: url(../../../wb69.github.io/HTML/img/overlay_light_diagonal.png);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -432,12 +441,67 @@ div.person div.info p {
 	width: 520px;
 	float: right;
 	padding: 15px 30px 0px 0px ;
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 div.person div.image img {
 	position: absolute;
 }
-
+div.icons{
+	padding-top: 300px;
+}
+div.icons h2{
+	font-weight: bold;
+}
+div.icons a.icon {
+	background-image: url(../../../wb69.github.io/HTML/img/iconlogos.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 100px;
+	height: 100px;
+	float:left;
+	margin: 20px 10px 0px 0px;
+}
+div.icons a.icon.intellij {
+	background-position: 0px -100px;
+}
+div.icons a.icon.intellij:hover {
+	background-position: 0px 0px;
+}
+div.icons a.icon.css {
+	background-position: -100px -100px;
+}
+div.icons a.icon.css:hover {
+	background-position: -100px 0px;
+}
+div.icons a.icon.js {
+	background-position: -200px -100px;
+}
+div.icons a.icon.js:hover {
+	background-position: -200px 0px;
+}
+div.icons a.icon.html {
+	background-position: -300px -100px;
+}
+div.icons a.icon.html:hover {
+	background-position: -300px 0px;
+}
+div.icons a.icon.java {
+	background-position: -400px -100px;
+}
+div.icons a.icon.java:hover {
+	background-position: -400px 0px;
+}
+div.icons a.icon.github {
+	background-position: -500px 0px;
+}
+div.icons a.icon.github:hover {
+	background-position: -500px -100px;
+}
+div.icons a.icon.spring {
+	background-position: -600px -100px;
+}
+div.icons a.icon.spring:hover {
+	background-position: -600px 0px;
+}
 /******************************************************************
 	Qualifications
 ******************************************************************/
@@ -463,13 +527,16 @@ div.qualifications div.gcse {
 	border: 3px solid red;
 	border-radius: 25%;
 }
+div.qualifications div.gcse:hover {
+	border: 7px solid red;
+	border-radius: 25%;
+}
 
 div.qualifications div.gcse h2{
 	padding-bottom: 10px;
 }
 div.qualifications div.gcse p{
 	font-size: 10pt;
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 
 div.qualifications div.alevel {
@@ -483,13 +550,17 @@ div.qualifications div.alevel {
 	border-radius: 25%;
 }
 
+div.qualifications div.alevel:hover {
+	border: 7px solid green;
+	border-radius: 25%;
+}
+
 div.qualifications div.alevel h2{
 	padding-bottom: 10px;
 }
 
 div.qualifications div.alevel p{
 	font-size: 10pt;
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
 }
 
 div.qualifications2 div.university {
@@ -502,13 +573,24 @@ div.qualifications2 div.university {
 	border-radius: 25%;
 }
 
+div.qualifications2 div.university:hover {
+	border: 7px solid blue;
+	border-radius: 25%;
+}
+
 div.qualifications2 div.university h2{
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
 div.qualifications2 div.university p{
 	font-size: 11pt;
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
+}
+
+div.qualifications2 div.university h5{
+	font-size: 11pt;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 
@@ -521,8 +603,8 @@ div.qualifications2 div.university p{
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	background-color: #000000;
-}
+	background-color: gray}
+
 .footer h6 {
 	line-height: 50px;
 	color: #FFF;
