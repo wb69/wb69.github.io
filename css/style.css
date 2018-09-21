@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-									
+
 /******************************************************************
-	This is the CSS Reset
+	CSS Reset
 ******************************************************************/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -41,90 +41,24 @@ html, body {
 }
 
 /******************************************************************
-	Text Selection Styles
-******************************************************************/
-::selection {
-	background: #6093e7;
-	color: #fff;
-}
-::-moz-selection {
-	background: #6093e7;
-	color: #fff;
-}
-a {
-	outline: none;
-}
-
-/******************************************************************
 	General
-******************************************************************/								
-a {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
-	text-decoration: none;
-	font-size: 8pt;
-	color: #616161;
-}
-a:hover {
-	color: #6093e7;
-}
+******************************************************************/
 b {
 	font-weight: bold;
 }
-p {
+a.navbar-brand{
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
 	color: #ffffff;
-	font-size: 12px;
 }
-h1 {
+a.nav-link{
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
 	color: #ffffff;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 40px;
 }
-h2 {
+span p {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 20px;
-	text-shadow: green 1px 0 5px;
-}
-h3 {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 18px;
-	text-shadow: green 1px 0 5px;
-}
-h4 {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 16px;
-	text-shadow: green 1px 0 5px;
-}
-h5 {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 14px;
-	text-shadow: green 1px 0 5px;
-}
-h6 {
-	font-family: "Open Sans", Verdana, Arial, sans-serif;
-	line-height: 1.6em;
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 12px;
 }
 .hidden {
 	display: none;
@@ -232,6 +166,8 @@ div.section.divider h2 {
 	margin-right: auto;
 	font-size: 24px;
 	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
 }
 a.scroll {
 	width: 100%;
@@ -254,11 +190,11 @@ div.icon {
 	height: 100%;
 }
 .home.hero {
-	background-image: url(../../../wb69.github.io/HTML/img/home_bg.jpg);
+	background-image: url(../img/home_bg.jpg);
 	background-size: cover;
 }
 .overlay {
-	background-image: url(../../../wb69.github.io/HTML/img/overlay_light_diagonal.png);
+	background-image: url(../img/overlay_light_diagonal.png);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -276,10 +212,13 @@ div.icon {
 	color: #FFF;
 	font-size: 40px;
 	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
 }
 .herowrapper b {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 0px 5px;
+	color: green;
 }
 a.scrolldown {
 	display: block;
@@ -288,7 +227,21 @@ a.scrolldown {
 	position: absolute;
 	bottom: 0;
 	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 8pt;
+	color: white;
 }
+
+a.scrolldown:hover {
+	text-decoration: none;
+}
+
+a.scrolldown:hover h3{
+	color: green;
+	text-decoration: none;
+}
+
 .scrolldown .icon {
 	font-size: 20px;
 	text-align: center;
@@ -310,112 +263,11 @@ footer.main {
 	margin-top: 60px;
 	text-align: center;
 }
-footer.main div.twitter {
-	width: 100%;
-	padding-bottom: 30px;
-	background-color: #343434;
-}
-footer.main h5.twitter {
-	color: #FFF;
-	line-height: 90px;
-	background-color: #343434;
-}
+
 footer.main h6.copyright {
 	color: #FFF;
 	line-height: 50px;
 	background-color: #272727;
-}
-
-/******************************************************************
-	Home Page
-******************************************************************/
-div.section.full {
-	margin: 40px 0px;
-	clear: both;
-	width: 960px;
-	overflow: hidden;
-}
-div.section.full li {
-	width: 220px;
-	margin-top: 20px;
-	margin-right: 26px;
-}
-div.section.block {
-	width: 220px;
-	height: 185px;
-	background-color: #f6f6f6;
-	text-align: center;
-	float: left;
-	cursor: pointer;
-}
-div.section.block h5 {
-	margin-top: 15px;
-}
-div.section.block h6 {
-	color: #838282;
-}
-div.section.block img {
-	width: 220px;
-	height: 185px;
-	display: block;
-	position: absolute;
-	margin-top: 0px;
-	margin-left: 0px;
-	z-index: 1;
-}
-div.section.block .content {
-	width: 220px;
-	height: 85px;
-	position: absolute;
-	z-index: 5;
-	background-color: #f6f6f6;
-	margin-top: 104px;
-}
-div.section.block .hover {
-	width: 220px;
-	height: 185px;
-	position: relative;
-	z-index: 10;
-	display: none;
-}
-div.section.block .hover.content {
-	width: 220px;
-	height: 182px;
-	position: relative;
-	display: block;
-	background-color: rgba(96, 147, 231, 0.6);
-	z-index: 10;
-	border-bottom: 3px solid #6093e7;
-	margin-top: 0px;
-}
-div.section.block .hover.content h2 {
-	padding-top: 40px;
-	font-size: 40px;
-	font-weight: 400;
-	color: #FFF;
-}
-div.section.block .hover.content h5 {
-	font-weight: 400;
-	color: #FFF;
-}
-div.section.block .hover.content h6 {
-	font-weight: 400;
-	color: #FFF;
-}
-div.section.full li:last-child  {
-	margin-right: 0px;
-}
-
-div.section.block h2 {
-	text-align: center;
-}
-
-a.readmore {
-	display: block;
-	margin-top: 5px;
-}
-div.section.block.blog .hover a.readmore {
-	color: #FFF;
 }
 
 /******************************************************************
@@ -434,25 +286,43 @@ div.person div.image {
 div.person div.info h2 {
 	width: 520px;
 	float: right;
-	padding: 10px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 div.person div.info p {
 	width: 520px;
 	float: right;
 	padding: 15px 30px 0px 0px ;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	font-size: 10pt;
 }
 div.person div.image img {
 	position: absolute;
 }
-div.icons{
+div.icons {
 	padding-top: 300px;
+	padding-left: 140px;
 }
 div.icons h2{
 	font-weight: bold;
+	padding-left: 260px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	text-shadow: green 1px 0 5px;
 }
 div.icons a.icon {
-	background-image: url(../../../wb69.github.io/HTML/img/iconlogos.png);
+	background-image: url(../img/iconlogos.png);
 	background-repeat: no-repeat;
 	display: block;
 	width: 100px;
@@ -534,8 +404,16 @@ div.qualifications div.gcse:hover {
 
 div.qualifications div.gcse h2{
 	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	font-size: 18pt;
+	font-weight: bold;
 }
 div.qualifications div.gcse p{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
 	font-size: 10pt;
 }
 
@@ -557,9 +435,17 @@ div.qualifications div.alevel:hover {
 
 div.qualifications div.alevel h2{
 	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	font-size: 18pt;
+	font-weight: bold;
 }
 
 div.qualifications div.alevel p{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
 	font-size: 10pt;
 }
 
@@ -581,9 +467,17 @@ div.qualifications2 div.university:hover {
 div.qualifications2 div.university h2{
 	padding-top: 20px;
 	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	font-size: 18pt;
+	font-weight: bold;
 }
 
 div.qualifications2 div.university p{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
 	font-size: 11pt;
 }
 
@@ -591,9 +485,129 @@ div.qualifications2 div.university h5{
 	font-size: 11pt;
 	padding-top: 20px;
 	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+
 }
 
+/******************************************************************
+	Projects
+******************************************************************/
+div.chatbot-text {
+	width: 400px;
+	float: left;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+}
+div.chatbot-text h2{
+	font-size: 14pt;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+div.chatbot-text p{
+	font-size: 11pt;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+}
+div.chatbot-images {
+	float: right;
+	padding-left: 50px;
+	padding-top: 60px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+}
 
+.carousel-inner img {
+	margin: auto;
+}
+
+/******************************************************************
+	Contact
+******************************************************************/
+div.contact{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+div.contact h2{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	font-size: 16pt;
+	font-weight: bold;
+}
+div.contact hr.green{
+	border-top: 2px solid white;
+	width: 300px;
+}
+div.contact img{
+	padding-bottom: 15px;
+}
+
+div.contact p{
+	font-size: 12pt;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+}
+
+div.contact p.bold{
+	font-weight: bold;
+	font-size: 14pt;
+}
+div.contact a{
+	font-size: 12pt;
+	color: white;
+}
+
+div.contact a:hover {
+	color: green;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+}
+div.contact div.row2{
+	padding-top: 50px;
+}
+div.contact div.form-group label{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	font-size: 12pt;
+	color: white;
+}
+div.contact div.form-group input{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	font-size: 12pt;
+}
+div.contact div.form-group small{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	font-size: 10pt;
+}
+div.contact div.form-group textarea{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	font-size: 12pt;
+}
 /******************************************************************
 	Footer
 ******************************************************************/
@@ -608,7 +622,11 @@ div.qualifications2 div.university h5{
 .footer h6 {
 	line-height: 50px;
 	color: #FFF;
+	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
 }
+
 
 /******************************************************************
 	Mobile
