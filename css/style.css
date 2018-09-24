@@ -325,7 +325,7 @@ div.icons a.icon {
 	background-image: url(../img/iconlogos.png);
 	background-repeat: no-repeat;
 	display: block;
-	width: 100px;
+	width: 10%;
 	height: 100px;
 	float:left;
 	margin: 20px 10px 0px 0px;
@@ -388,7 +388,7 @@ div.qualifications2 {
 }
 
 div.qualifications div.gcse {
-	width: 400px;
+	width: 40%;
 	float: left;
 	padding-left: 50px;
 	padding-top: 10px;
@@ -418,7 +418,7 @@ div.qualifications div.gcse p{
 }
 
 div.qualifications div.alevel {
-	width: 400px;
+	width: 40%;
 	float: right;
 	padding-left: 50px;
 	padding-top: 10px;
@@ -555,7 +555,7 @@ div.contact h2{
 }
 div.contact hr.green{
 	border-top: 2px solid white;
-	width: 300px;
+	width: 100%;
 }
 div.contact img{
 	padding-bottom: 15px;
@@ -627,6 +627,12 @@ div.contact div.form-group textarea{
 	font-size: 12px;
 }
 
+/******************************************************************
+	Header
+******************************************************************/
+div.navbardiv {
+	width: 100%;
+}
 
 /******************************************************************
 	Mobile
