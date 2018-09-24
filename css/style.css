@@ -392,9 +392,9 @@ div.qualifications2 {
 div.qualifications div.gcse {
 	width: 40%;
 	float: left;
-	padding-left: 50px;
 	padding-top: 10px;
-	padding-right: 50px;
+	padding-left: 5%;
+	padding-right: 5%;
 	padding-bottom: 15px;
 	border: 3px solid red;
 	border-radius: 25%;
@@ -422,9 +422,8 @@ div.qualifications div.gcse p{
 div.qualifications div.alevel {
 	width: 40%;
 	float: right;
-	padding-left: 50px;
+	padding-left: 5%;
 	padding-top: 10px;
-	padding-right: 50px;
 	padding-bottom: 15px;
 	border: 3px solid green;
 	border-radius: 25%;
