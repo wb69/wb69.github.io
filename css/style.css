@@ -310,12 +310,10 @@ div.person div.image img {
 }
 div.icons {
 	padding-top: 300px;
-	padding-left: 140px;
 }
 div.icons h2{
 	width: 100%;
 	font-weight: bold;
-	padding-left:30%;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
 	color: #ffffff;
@@ -327,10 +325,10 @@ div.icons a.icon {
 	background-image: url(../img/iconlogos.png);
 	background-repeat: no-repeat;
 	display: block;
-	width: 10%;
+	width: 100px;
 	height: 100px;
 	float:left;
-	margin: 20px 10px 0px 0px;
+	margin: 20px 0px 0px 0px;
 }
 div.icons a.icon.intellij {
 	background-position: 0px -100px;
@@ -641,6 +639,12 @@ div.navbardiv {
 @media all and (max-width: 960px) {
 	ul.portfolio li {
 		width: 50%;
+	}
+	div.gcse {
+		width: 100%;
+	}
+	div.alevel{
+		width:100%;
 	}
 }
 
