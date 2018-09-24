@@ -274,17 +274,17 @@ footer.main h6.copyright {
 	About Us
 ******************************************************************/
 div.person {
-	width: 920px;
+	width: 100%;
 	margin: 20px auto;
 }
 div.person div.image {
-	width: 340px;
+	width: 30%;
 	height: 250px;
 	float: left;
 	margin-bottom: 40px;
 }
 div.person div.info h2 {
-	width: 520px;
+	width: 50%;
 	float: right;
 	padding: 0px 0px 0px 0px ;
 	font-family: 'Montserrat', sans-serif;
@@ -296,7 +296,7 @@ div.person div.info h2 {
 }
 
 div.person div.info p {
-	width: 520px;
+	width: 50%;
 	float: right;
 	padding: 15px 30px 0px 0px ;
 	font-family: 'Montserrat', sans-serif;
