@@ -114,6 +114,7 @@ blockquote {
 	height: 70px;
 	text-align: center;
 	padding-top: 40px;
+	padding-top: 40px;
 	color: #ffffff;
 	font-weight: 300;
 	font-style: italic;
@@ -312,8 +313,9 @@ div.icons {
 	padding-left: 140px;
 }
 div.icons h2{
+	width: 100%;
 	font-weight: bold;
-	padding-left: 260px;
+	padding-left:30%;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
 	color: #ffffff;
