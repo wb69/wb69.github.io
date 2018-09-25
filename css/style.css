@@ -662,14 +662,9 @@ div.navbardiv {
 	Mobile
 ******************************************************************/
 @media all and (max-width: 960px) {
-	ul.portfolio li {
-		width: 50%;
-	}
-	div.gcse {
-		width: 100%;
-	}
-	div.alevel{
-		width:100%;
+	#container, #header, #content, #footer {
+		float: none;
+		width: auto;
 	}
 }
 
