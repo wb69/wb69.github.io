@@ -310,6 +310,7 @@ div.person div.image img {
 }
 div.icons {
 	padding-top: 300px;
+    text-align: center;
 }
 div.icons h2{
 	width: 100%;
@@ -319,7 +320,7 @@ div.icons h2{
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 20px;
-	text-shadow: green 1px 0 5px;
+	text-align: center
 }
 div.icons a.icon {
 	background-image: url(../img/iconlogos.png);
@@ -327,7 +328,7 @@ div.icons a.icon {
 	display: block;
 	width: 100px;
 	height: 100px;
-	float:left;
+	float:right;
 	margin: 20px 0px 0px 0px;
 }
 div.icons a.icon.intellij {
@@ -496,7 +497,7 @@ div.qualifications2 div.university h5{
 	Projects
 ******************************************************************/
 div.chatbot-text {
-	width: 400px;
+	width: 50%;
 	float: left;
 	padding-left: 0px;
 	padding-top: 10px;
@@ -523,13 +524,37 @@ div.chatbot-text p{
 	text-decoration: none;
 }
 div.chatbot-images {
+    width: 40%;
 	float: right;
-	padding-left: 50px;
+	padding-left: 30px;
 	padding-top: 60px;
 	padding-right: 0px;
 	padding-bottom: 15px;
 }
-
+div.projects2 {
+    width: 100%;
+}
+div.taskmanagertext h2{
+    font-size: 14pt;
+    padding-top: 50%;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+div.taskmanagertext p{
+    font-size: 11pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
 .carousel-inner img {
 	margin: auto;
 }
