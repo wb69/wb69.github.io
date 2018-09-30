@@ -666,7 +666,6 @@ div.navbardiv {
 		width: 100%;
 		height: 250px;
 		float: none;
-		text-align: center;
 	}
 	div.person div.info h2 {
 		width: 100%;
@@ -741,6 +740,9 @@ div.navbardiv {
 		padding-top: 10px;
 		padding-right: 0px;
 		padding-bottom: 15px;
+	}
+	div.chatbot-text p{
+		text-align: center;
 	}
 	div.chatbot-images {
 		display: none;
