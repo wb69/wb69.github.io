@@ -536,7 +536,7 @@ div.projects2 {
 }
 div.taskmanagertext h2{
     font-size: 14pt;
-    padding-top: 500px;
+    padding-top: 600px;
     padding-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6em;
@@ -683,7 +683,7 @@ div.navbardiv {
 		width: 100%;
 		float: none;
 		padding-top: 20px;
-		padding-left: 100px;
+		padding-left: 50px;
 		font-family: 'Montserrat', sans-serif;
 		line-height: 1.6em;
 		color: #ffffff;
@@ -691,7 +691,7 @@ div.navbardiv {
 		text-align: center;
 	}
 	div.icons {
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 	div.icons h2{
 		width: 100%;
@@ -738,7 +738,7 @@ div.navbardiv {
 		width: 100%;
 		float: none;
 		padding-left: 0px;
-		padding-top: 10px;
+		padding-top: 5px;
 		padding-right: 0px;
 		padding-bottom: 15px;
 	}
