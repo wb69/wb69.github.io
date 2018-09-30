@@ -661,10 +661,23 @@ div.navbardiv {
 /******************************************************************
 	Mobile
 ******************************************************************/
-@media all and (max-width: 960px) {
-	#container, #header, #content, #footer {
+@media all and (max-width: 480px) {
+	div.person div.image {
+		width: 100%;
+		height: 250px;
 		float: none;
-		width: auto;
+		margin-bottom: 40px;
+	}
+	div.person div.info h2 {
+		width: 100%;
+		float: none;
+		padding: 0px 0px 0px 0px ;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 1.6em;
+		color: #ffffff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 20px;
 	}
 }
 
