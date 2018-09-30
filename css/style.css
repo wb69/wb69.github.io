@@ -310,7 +310,6 @@ div.person div.image img {
 }
 div.icons {
 	padding-top: 300px;
-    text-align: center;
 }
 div.icons h2{
 	width: 100%;
@@ -328,26 +327,27 @@ div.icons a.icon {
 	display: block;
 	width: 100px;
 	height: 100px;
-	float:right;
-	margin: 20px 0px 0px 0px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
 }
 div.icons a.icon.intellij {
-	background-position: 0px -100px;
+	background-position: 0 -100px;
 }
 div.icons a.icon.intellij:hover {
-	background-position: 0px 0px;
+	background-position: 0 0;
 }
 div.icons a.icon.css {
 	background-position: -100px -100px;
 }
 div.icons a.icon.css:hover {
-	background-position: -100px 0px;
+	background-position: -100px 0;
 }
 div.icons a.icon.js {
 	background-position: -200px -100px;
 }
 div.icons a.icon.js:hover {
-	background-position: -200px 0px;
+	background-position: -200px 0;
 }
 div.icons a.icon.html {
 	background-position: -300px -100px;
@@ -707,10 +707,9 @@ div.navbardiv {
 	div.icons a.icon {
 		background-image: url(../img/iconlogos.png);
 		background-repeat: no-repeat;
-		width: 100%;
+		width: 100px;
 		height: 100px;
-		float: none;
-		text-align: center;
+		float: left;
 	}
 
 	div.qualifications div.gcse {
