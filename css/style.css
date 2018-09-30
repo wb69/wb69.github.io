@@ -328,8 +328,8 @@ div.icons a.icon {
 	width: 100px;
 	height: 100px;
 	float: left;
-	margin-top: 10px;
-	margin-left: 100px;
+	margin-top: 25px;
+	margin-left: 11.5%;
 }
 div.icons a.icon.intellij {
 	background-position: 0 -100px;
@@ -691,8 +691,7 @@ div.navbardiv {
 		text-align: center;
 	}
 	div.icons {
-		padding-top: 10%;
-		text-align: center;
+		padding-top: 300px;
 	}
 	div.icons h2{
 		width: 100%;
@@ -710,6 +709,8 @@ div.navbardiv {
 		width: 100px;
 		height: 100px;
 		float: left;
+		margin-top: 25px;
+		margin-left: 11.5%;
 	}
 
 	div.qualifications div.gcse {
