@@ -716,18 +716,38 @@ div.navbardiv {
 	div.qualifications div.gcse {
 		width: 100%;
 		float: none;
-		padding-top: 100px;
-		padding-bottom: 15px;
+		padding-top: 25px;
+		padding-left: 50px;
+		padding-bottom: 25px;
+		padding-right: 50px;
 		border: 3px solid red;
 		border-radius: 25%;
 	}
 	div.qualifications div.alevel {
 		width: 100%;
 		float: none;
-		padding-top: 100px;
-		padding-bottom: 15px;
+		padding-top: 25px;
+		padding-left: 50px;
+		padding-bottom: 25px;
+		padding-right: 50px;
 		border: 3px solid green;
 		border-radius: 25%;
+	}
+	div.chatbot-text {
+		width: 100%;
+		float: none;
+		padding-left: 0px;
+		padding-top: 10px;
+		padding-right: 0px;
+		padding-bottom: 15px;
+	}
+	div.chatbot-images {
+		width: 100%;
+		float: none;
+		padding-left: 30px;
+		padding-top: 60px;
+		padding-right: 0px;
+		padding-bottom: 15px;
 	}
 }
 
