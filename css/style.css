@@ -667,7 +667,7 @@ div.navbardiv {
 		height: 250px;
 		float: none;
 		margin-bottom: 40px;
-		alignment: center;
+		text-align: center;
 	}
 	div.person div.info h2 {
 		width: 100%;
@@ -684,7 +684,7 @@ div.navbardiv {
 	div.person div.info p {
 		width: 100%;
 		float: none;
-		padding: 15px 30px 0px 0px ;
+		padding: 0px 0px 0px 0px ;
 		font-family: 'Montserrat', sans-serif;
 		line-height: 1.6em;
 		color: #ffffff;
@@ -711,6 +711,7 @@ div.navbardiv {
 		width: 100px;
 		height: 100px;
 		float: none;
+		alignment: center;
 	}
 
 	div.qualifications div.gcse {
@@ -744,7 +745,7 @@ div.navbardiv {
 	div.chatbot-images {
 		width: 100%;
 		float: none;
-		padding-left: 30px;
+		padding-left: 0px;
 		padding-top: 60px;
 		padding-right: 0px;
 		padding-bottom: 15px;
