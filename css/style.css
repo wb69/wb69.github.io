@@ -679,7 +679,7 @@ div.navbardiv {
 		text-decoration: none;
 		font-weight: bold;
 		font-size: 20px;
-		alignment: center;
+		text-align: center;
 	}
 	div.person div.info p {
 		width: 100%;
@@ -689,7 +689,7 @@ div.navbardiv {
 		line-height: 1.6em;
 		color: #ffffff;
 		font-size: 10pt;
-		alignment: center;
+		text-align: center;
 	}
 	div.icons {
 		padding-top: 10%;
@@ -708,10 +708,27 @@ div.navbardiv {
 	div.icons a.icon {
 		background-image: url(../img/iconlogos.png);
 		background-repeat: no-repeat;
-		display: block;
 		width: 100px;
 		height: 100px;
 		float: none;
+	}
+
+	div.qualifications div.gcse {
+		width: 100%;
+		float: none;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border: 3px solid red;
+		border-radius: 25%;
+	}
+	div.qualifications div.alevel {
+		width: 100%;
+		float: none;
+		padding-left: 5%;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border: 3px solid green;
+		border-radius: 25%;
 	}
 }
 
