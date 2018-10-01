@@ -305,6 +305,7 @@ div.person div.info p {
 	color: #ffffff;
 	font-size: 10pt;
 }
+
 div.person div.image img {
 	position: absolute;
 }
@@ -411,6 +412,15 @@ div.qualifications div.gcse h2{
 	font-size: 18pt;
 	font-weight: bold;
 }
+div.qualifications div.gcse:hover h2 i{
+	-webkit-animation:spin 4s linear infinite;
+	-moz-animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 div.qualifications div.gcse p{
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
@@ -441,6 +451,14 @@ div.qualifications div.alevel h2{
 	font-size: 18pt;
 	font-weight: bold;
 }
+div.qualifications div.alevel:hover h2 i{
+	-webkit-animation:spin 4s linear infinite;
+	-moz-animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 div.qualifications div.alevel p{
 	font-family: 'Montserrat', sans-serif;
@@ -473,6 +491,15 @@ div.qualifications2 div.university h2{
 	font-size: 18pt;
 	font-weight: bold;
 }
+div.qualifications2 div.university:hover h2 i{
+	-webkit-animation:spin 4s linear infinite;
+	-moz-animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 
 div.qualifications2 div.university p{
 	font-family: 'Montserrat', sans-serif;
@@ -601,12 +628,26 @@ div.contact a{
 	font-size: 12pt;
 	color: white;
 }
-
 div.contact a:hover {
 	color: green;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
+}
+div.contact div.phone:hover {
+	color: green;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+}
+div.contact div.phone:hover p{
+	color: green;
+}
+div.contact a:hover p{
+	color:green;
+}
+div.contact div.row p{
+	padding-bottom: 45px;
 }
 div.contact div.row2{
 	padding-top: 50px;
@@ -683,7 +724,7 @@ div.navbardiv {
 		width: 100%;
 		float: none;
 		padding-top: 20px;
-		padding-left: 25px;
+		padding-left: 20%;
 		font-family: 'Montserrat', sans-serif;
 		line-height: 1.6em;
 		color: #ffffff;
