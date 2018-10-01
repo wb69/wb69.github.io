@@ -560,11 +560,15 @@ div.chatbot-images {
 }
 div.projects2 {
     width: 100%;
+	padding-top: 600px;
+	padding-bottom: 10px;
+}
+div.taskmanagertext{
+	width: 40%;
+	float: left;
 }
 div.taskmanagertext h2{
     font-size: 14pt;
-    padding-top: 600px;
-    padding-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6em;
     color: #ffffff;
@@ -581,6 +585,29 @@ div.taskmanagertext p{
     color: #ffffff;
     text-decoration: none;
     text-align: center;
+}
+div.websitetext{
+	width: 40%;
+	float: right;
+}
+div.websitetext h2{
+	font-size: 14pt;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+div.websitetext p{
+	font-size: 11pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
 }
 .carousel-inner img {
 	margin: auto;
@@ -814,6 +841,14 @@ div.navbardiv {
 		text-decoration: none;
 		font-weight: bold;
 		text-align: center;
+	}
+	div.taskmanagertext{
+		width: 100%;
+		float: none;
+	}
+	div.websitetext{
+		width: 100%;
+		float: none;
 	}
 }
 
