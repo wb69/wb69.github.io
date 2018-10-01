@@ -846,9 +846,10 @@ div.navbardiv {
 		width: 100%;
 		float: none;
 	}
-	div.websitetext{
+	div.websitetext {
 		width: 100%;
 		float: none;
+	}
 
 	div.websitetext h2{
 		font-size: 14pt;
