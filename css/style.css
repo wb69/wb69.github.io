@@ -835,7 +835,7 @@ div.navbardiv {
 
 	div.projects2 {
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 
@@ -871,6 +871,7 @@ div.navbardiv {
 	div.taskmanagertext{
 		width: 100%;
 		float: none;
+		padding-bottom: 20px;
 	}
 	div.websitetext {
 		width: 100%;
@@ -880,7 +881,7 @@ div.navbardiv {
 	div.websitetext h2{
 		font-size: 14pt;
 		padding-top: 0;
-		padding-bottom: 5px;
+		padding-bottom: 10px;
 		font-family: 'Montserrat', sans-serif;
 		line-height: 1.6em;
 		color: #ffffff;
