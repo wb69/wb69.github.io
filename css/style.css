@@ -569,7 +569,7 @@ div.chatbot-images {
     width: 40%;
 	float: right;
 	padding-left: 30px;
-	padding-top: 60px;
+	padding-top: 100px;
 	padding-right: 0px;
 	padding-bottom: 15px;
 }
@@ -590,10 +590,11 @@ div.taskmanagertext h2{
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+	padding-bottom: 10px;
 }
 div.taskmanagertext p{
     font-size: 11pt;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6em;
@@ -613,10 +614,11 @@ div.websitetext h2{
 	text-decoration: none;
 	font-weight: bold;
 	text-align: center;
+	padding-bottom: 10px;
 }
 div.websitetext p{
 	font-size: 11pt;
-	padding-top: 5px;
+	padding-top: 20px;
 	padding-bottom: 5px;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6em;
@@ -773,6 +775,20 @@ div.navbardiv {
 		font-size: 10pt;
 		text-align: center;
 	}
+	div.person div.info2 {
+		 width: 100%;
+		 padding-top: 30px;
+	}
+	div.person div.info p {
+		width: 100%;
+		float: none;
+		padding-left: 12%;
+		font-family: 'Montserrat', sans-serif;
+		line-height: 1.6em;
+		color: #ffffff;
+		font-size: 12pt;
+		text-align: center;
+	}
 	div.icons {
 		padding-top: 100px;
 	}
@@ -903,13 +919,6 @@ div.navbardiv {
 		text-decoration: none;
 		font-weight: bold;
 		text-align: center;
-	}
-}
-@media all and (min-width: 481px) and (max-width: 960px) {
-	div.projects2 {
-		width: 100%;
-		padding-top: 550px;
-		padding-bottom: 10px;
 	}
 }
 
