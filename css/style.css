@@ -575,7 +575,7 @@ div.chatbot-images {
 }
 div.projects2 {
     width: 100%;
-	padding-top: 550px;
+	padding-top: 600px;
 	padding-bottom: 10px;
 }
 div.taskmanagertext{
@@ -778,11 +778,11 @@ div.navbardiv {
 	div.person div.info2 {
 		 width: 100%;
 		 padding-top: 30px;
+		padding-left: 20%;
 	}
 	div.person div.info p {
 		width: 100%;
 		float: none;
-		padding-left: 12%;
 		font-family: 'Montserrat', sans-serif;
 		line-height: 1.6em;
 		color: #ffffff;
