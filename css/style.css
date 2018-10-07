@@ -629,7 +629,31 @@ div.websitetext p{
 .carousel-inner img {
 	margin: auto;
 }
-
+div.scrabbletext {
+	width: 100%;
+	float: none;
+	padding-top:550px;
+}
+div.scrabbletext h2{
+	font-size: 14pt;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+}
+div.scrabbletext p{
+	font-size: 11pt;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6em;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+}
 /******************************************************************
 	Contact
 ******************************************************************/
@@ -692,30 +716,6 @@ div.contact a:hover p{
 }
 div.contact div.row p{
 	padding-bottom: 45px;
-}
-div.contact div.row2{
-	padding-top: 50px;
-}
-div.contact div.form-group label{
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
-	font-size: 12pt;
-	color: white;
-}
-div.contact div.form-group input{
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
-	font-size: 12pt;
-}
-div.contact div.form-group small{
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
-	font-size: 10pt;
-}
-div.contact div.form-group textarea{
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6em;
-	font-size: 12pt;
 }
 /******************************************************************
 	Footer
@@ -919,6 +919,11 @@ div.navbardiv {
 		text-decoration: none;
 		font-weight: bold;
 		text-align: center;
+	}
+	div.scrabbletext {
+		width: 100%;
+		float: none;
+		padding-top:20px;
 	}
 }
 
